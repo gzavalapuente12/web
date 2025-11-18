@@ -6,7 +6,7 @@
 // ============================================
 
 // Datos de MySQL (los que ves en el panel)
-$host     = "sql207.infinityfree.com";        // Nombre de host de MySQL
+$host     = "localhost";        // Nombre de host de MySQL
 $user     = "if0_40377057";                  // Nombre de usuario de MySQL
 $password = "Gabyzavala12";  // Contraseña de MySQL (la misma del vPanel)
 $dbname   = "if0_40377057_clinica_veterinaria"; // Nombre de la base de datos
@@ -25,3 +25,4 @@ mysqli_set_charset($conn, "utf8mb4");
 // Si quieres probar que conecta, puedes descomentar esta línea:
 // echo "<p style='color: green;'>✔️ Conexión exitosa a MySQL.</p>";
 ?>
+
